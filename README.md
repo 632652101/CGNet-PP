@@ -52,14 +52,10 @@ Context Guided Network（CGNet）是由中国科学院计算所Tianyi Wu、Sheng
 
 # 四、环境依赖
 
----
-
 - 硬件：CPU、GPU
 - 框架：PaddlePaddle ≥ 2.0.0
 
 # 五、快速开始
-
----
 
 ### step1: clone
 
