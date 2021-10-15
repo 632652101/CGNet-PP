@@ -41,7 +41,7 @@ def accuracy(loader,
 
 
 def get_iou(data_list, classes=19, save_path=None):
-    _get_iou(data_list, classes, save_path)
+    return _get_iou(data_list, classes, save_path)
 
 
 def _get_iou(data_list, classes=19, save_path=None):
