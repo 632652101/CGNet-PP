@@ -48,7 +48,7 @@ Context Guided Network（CGNet）是由中国科学院计算所Tianyi Wu、Sheng
 
 ### 下载方法二
 
-在百度aistudio上下载处理好的[数据集](https://aistudio.baidu.com/aistudio/datasetdetail/111446)，直接解压放入 `data/Cityscapes` 文件夹下。
+在百度aistudio上下载处理好的[数据集](https://aistudio.baidu.com/aistudio/datasetdetail/111446)，直接解压将解压后Cityscapes文件夹中的内容，放入 `data/Cityscapes` 文件夹下，如有文件重名可以进行覆盖。
 
 # 四、环境依赖
 
@@ -82,3 +82,9 @@ python main.py --train
 ```
 python main.py --val
 ```
+
+# 六、其他
+
+### 复现日志文件
+
+复现的日志文件存放在logs/log_reprod文件夹下。
