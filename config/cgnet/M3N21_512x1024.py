@@ -5,7 +5,7 @@ model = dict(
         n=21,
         classes=19,
         dropOutFlag=False,
-        pretrained="weights/M3N21_512x1024_best.pdparams"
+        pretrained="weights/model_cityscapes_train_on_trainvalset.pdparams"
     )
 )
 
