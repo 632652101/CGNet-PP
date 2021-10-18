@@ -1,0 +1,5 @@
+[2021/10/18 10:31:02] root INFO: loss_0: 
+[2021/10/18 10:31:02] root INFO: 	mean diff: check passed: False, value: 0.004770815372467041
+[2021/10/18 10:31:02] root INFO: loss_1: 
+[2021/10/18 10:31:02] root INFO: 	mean diff: check passed: False, value: 1.1406257272028597e-08
+[2021/10/18 10:31:02] root INFO: diff check failed
