@@ -13,7 +13,7 @@ Context Guided Network（CGNet）是由中国科学院计算所Tianyi Wu、Sheng
 | 实现       | Backbone | Crop Size  | mIoU  |
 | ---------- | -------- | ---------- | ----- |
 | CGNet 指标 | M3N21    | 512 * 1024 | 68.27 |
-| CGNet 复现 | M3N21    | 512 * 1024 | 72.04 |
+| CGNet 复现 | M3N21    | 512 * 1024 | 68.89 |
 
 # 三、数据集
 
