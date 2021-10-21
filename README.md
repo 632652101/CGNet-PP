@@ -88,3 +88,10 @@ python main.py --val
 ### 复现日志文件
 
 复现的日志文件存放在logs/log_reprod文件夹下。
+
+### 权重文件
+
+`model_cityscapes_train_on_trainset.pdparams` 是源作者repo中`model_cityscapes_train_on_trainset.pth`对应的权重文件。
+
+`model_cityscapes_train_on_trainvalset.pdparams` 是源作者repo中`model_cityscapes_train_on_trainvalset.pth`对应的权重文件。
+
