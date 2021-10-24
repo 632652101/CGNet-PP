@@ -235,12 +235,14 @@ def get_dataloader(dataset,
                    shuffle=True,
                    num_workers=1,
                    use_shared_memory=True,
-                   drop_last=True):
+                   drop_last=True,
+                   batch_sampler=None):
     return DataLoader(
         dataset,
         batch_size=batch_size,
         shuffle=shuffle,
         num_workers=num_workers,
         use_shared_memory=use_shared_memory,
-        drop_last=drop_last
+        drop_last=drop_last,
+        batch_sampler=batch_sampler
     )
