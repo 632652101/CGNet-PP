@@ -89,7 +89,7 @@ python main.py --val
 ```
 ├─config                          # 配置
 │   └── cgnet
-│   			└── M3N21_512x1024.py   # 配置权重文件，训练超参数,epoch,lr等
+│       └── M3N21_512x1024.py     # 配置权重文件，训练超参数,epoch,lr等
 ├─data                            # 数据集 
 ├─eval                            # 评估脚本
 ├─model                           # 模型
