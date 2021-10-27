@@ -5,7 +5,7 @@ model = dict(
         n=21,
         classes=19,
         dropOutFlag=False,
-        pretrained="weights/model_cityscapes_train_on_trainvalset.pdparams"
+        pretrained="weights/M3N21_512x1024_top1.pdparams"
     )
 )
 
@@ -32,7 +32,7 @@ data = dict(
     ),
     loader=dict(
         train=dict(
-            batch_size=16,
+            batch_size=8,
             shuffle=True,
             num_workers=1,
             use_shared_memory=True,
@@ -59,6 +59,6 @@ train = dict(
     ),
     resume=dict(
         last_epoch=-1,
-        lr=0.00005
+        lr=0.001
     )
 )

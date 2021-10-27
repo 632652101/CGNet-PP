@@ -45,6 +45,17 @@ class CGNet(nn.Layer):
         else:
             self.classifier = nn.Sequential(Conv(256, classes, 1, 1))
 
+        for m in self.modules():
+            classname = m.__class__.__name__
+            if classname.find('Conv2D') != -1:
+                nn.init.kaiming_normal_(m.weight)
+                if m.bias is not None:
+                    m.bias.data.zero_()
+                elif classname.find('ConvTranspose2D') != -1:
+                    nn.init.kaiming_normal_(m.weight)
+                    if m.bias is not None:
+                        m.bias.data.zero_()
+
     def forward(self, x):
         # stage 1
         output0 = self.level1_0(x)
